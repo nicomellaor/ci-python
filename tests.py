@@ -4,7 +4,7 @@ from sistema import leer_datos_sensor, convertir_a_fahrenheit, registrar_datos
 
 class TestSistemaSensores(unittest.TestCase):
 
-    @patch('sistema.leer_datos_sensor')
+    @patch('tests.leer_datos_sensor')
     def test_mock_lectura_sensor(self, mock_sensor):
         mock_sensor.return_value = 25.0
         valor = leer_datos_sensor()
