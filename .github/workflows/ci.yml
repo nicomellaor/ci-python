@@ -34,5 +34,5 @@ jobs:
         shell: bash  # Asegura compatibilidad en Windows y Linux
 
       - name: Ejecutar pruebas
-        run: pytest
+        run: python -m unittest tests
         shell: bash  # Importante para Windows

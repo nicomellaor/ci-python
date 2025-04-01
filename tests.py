@@ -24,4 +24,5 @@ class TestSistemaSensores(unittest.TestCase):
         self.assertEqual(resultado["celsius"], 20)
         self.assertEqual(resultado["fahrenheit"], 68.0)
 
-unittest.main(argv=[''], exit=False)
+if __name__ == '__main__':
+    unittest.main()
