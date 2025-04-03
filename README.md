@@ -12,7 +12,9 @@ Integración Continua (CI) con Python y GitHub Actions.
 
 `python -m venv venv`
 
-`source venv/bin/activate`
+`source venv/bin/activate` (Linux)
+
+`source venv/Scripts/activate` (Windows)
 
 ### 3) Instalar Dependencias
 
@@ -20,7 +22,7 @@ Integración Continua (CI) con Python y GitHub Actions.
 
 ### 4) Ejecución de Pruebas en local
 
-`python -m unittest test`
+`python -m unittest tests`
 
 ### 5) CI con GitHub Actions
 
